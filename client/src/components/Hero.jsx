@@ -21,7 +21,8 @@ const Hero = () => {
                     <img src={assets.calenderIcon} alt="" className='h-4'/>
                     <label htmlFor="destinationInput">Destination</label>
                 </div>
-                <input list='destinations' id="destinationInput" type="text" className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none" placeholder="Type here" required />
+                <input list='destinations' id="destinationInput" type="text"
+                className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none" placeholder="Type here" required />
                 <datalist id='destinations'>
                     {cities.map((city, index) => (
                         <option value={city} key={index} />
@@ -54,6 +55,7 @@ const Hero = () => {
                 <img src={assets.searchIcon} alt="searchIcon" className='h-7'/>
                 <span>Search</span>
             </button>
+
         </form>
     </div>
   )

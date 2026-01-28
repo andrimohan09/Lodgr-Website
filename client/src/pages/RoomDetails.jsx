@@ -36,7 +36,7 @@ const RoomDetails = () => {
         </div>
 
         {/* Room Address */}
-        <div className='flex itmes-center gap-1 text-gray-500 mt-2'>
+        <div className='flex items-center gap-1 text-gray-500 mt-2'>
             <img src={assets.locationIcon} alt="location-icon" />
             <span>
                 {room.hotel.address}

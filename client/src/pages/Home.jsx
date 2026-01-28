@@ -8,11 +8,11 @@ import NewsLetter from '../components/NewsLetter'
 const Home = () => {
   return (
     <>
-        <Hero />
-        <FeaturedDestination />
-        <ExclusiveOffers />
-        <Testimonial />
-        <NewsLetter />
+      <Hero />
+      <FeaturedDestination />
+      <ExclusiveOffers />
+      <Testimonial />
+      <NewsLetter />
     </>
   )
 }
